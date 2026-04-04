@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/portfolio.css">
+    <script type="module" src="http://127.0.0.1:5174/@vite/client"></script><link rel="stylesheet" href="http://127.0.0.1:5174/resources/css/app.css" /><script type="module" src="http://127.0.0.1:5174/resources/js/app.js"></script>    <link rel="stylesheet" href="css/portfolio.css">
     <script src="js/site.js" defer></script>
 </head>
 <body class="min-h-full bg-background text-text-primary antialiased">
@@ -16,7 +16,10 @@
             <a href="index.html" class="font-heading font-semibold text-text-primary dark:text-slate-100">Nowshad Jawad</a>
             <nav class="flex flex-wrap items-center justify-end gap-3 sm:gap-5 text-sm font-medium">
                 <a href="index.html" class="text-text-secondary transition-colors hover:text-primary dark:text-slate-400">Home</a>
-                                <button type="button" data-theme-toggle class="rounded-lg border border-border-light px-2.5 py-1.5 text-xs font-medium text-text-secondary transition-colors hover:border-primary/40 dark:border-slate-700">Theme</button>
+                                <button type="button" data-theme-toggle class="rounded-lg border border-border-light p-2 text-text-secondary transition-colors hover:border-primary/40 hover:text-primary dark:border-slate-700 dark:text-slate-400" title="Toggle theme">
+                    <svg class="w-4 h-4 hidden dark:block" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" /></svg>
+                    <svg class="w-4 h-4 block dark:hidden" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" /></svg>
+                </button>
             </nav>
         </div>
     </header>
@@ -28,6 +31,14 @@
 
             <div class="mt-12 grid gap-6 sm:grid-cols-2">
                                                                                                     <article class="card card-hover flex flex-col">
+                            <h2 class="font-heading text-lg font-semibold text-text-primary dark:text-white">portfolio-site-jawad0501</h2>
+                            <p class="mt-2 flex-1 text-sm leading-relaxed text-text-secondary dark:text-slate-400">Portfolio static site — auto-published</p>
+                                                            <div class="mt-4 flex flex-wrap gap-1.5">
+                                                                            <span class="badge-neutral dark:bg-slate-800">HTML</span>
+                                                                    </div>
+                                                                                        <a href="https://github.com/Jawad0501/portfolio-site-jawad0501" class="btn-ghost mt-6 justify-start self-start px-0 text-sm font-semibold text-primary hover:bg-transparent dark:text-primary-light" target="_blank" rel="noopener">Repository →</a>
+                                                    </article>
+                                                                                                        <article class="card card-hover flex flex-col">
                             <h2 class="font-heading text-lg font-semibold text-text-primary dark:text-white">rest-api-route-tester</h2>
                             <p class="mt-2 flex-1 text-sm leading-relaxed text-text-secondary dark:text-slate-400"></p>
                                                             <div class="mt-4 flex flex-wrap gap-1.5">
